@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Home"
+            android:icon="@drawable/home"
+            android:id="@+id/home"
+            />
+        <item
+            android:title="About Us"
+            android:icon="@drawable/about_us"
+            android:id="@+id/aboutUs"
+            />
+    </group>
+    <item android:title="Services We Provide"
+        >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="Our Services"
+                    android:icon="@drawable/our_services"
+                    android:id="@+id/ourServices"
+                    />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Disclaimer"
+        >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="Disclaimer"
+                    android:icon="@drawable/setting"
+                    android:id="@+id/disclaimer"
+                    />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Communicate"
+        >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="Contact Us"
+                    android:icon="@drawable/contact_us"
+                    android:id="@+id/contactUs"
+                    />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Sign Out"
+        >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:title="LogOut"
+                    android:icon="@drawable/setting"
+                    android:id="@+id/logoutBtn"
+                    />
+            </group>
+        </menu>
+    </item>
+</menu>

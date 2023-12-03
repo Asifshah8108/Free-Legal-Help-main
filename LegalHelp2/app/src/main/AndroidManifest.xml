@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.myapplicationname.legalhelp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LegalHelp"
+        tools:targetApi="31">
+        <activity
+            android:name="com.myapplicationname.legalhelp.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.myapplicationname.legalhelp.FillForm"
+            android:exported="false" />
+        <activity
+            android:name="com.myapplicationname.legalhelp.ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name="com.myapplicationname.legalhelp.Registration"
+            android:exported="false" />
+        <activity
+            android:name="com.myapplicationname.legalhelp.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.myapplicationname.legalhelp.VerifyOtp"
+            android:exported="false" />
+        <activity
+            android:name="com.myapplicationname.legalhelp.EnterNumber"
+            android:exported="false" />
+        <activity
+            android:name="com.myapplicationname.legalhelp.Login"
+            android:exported="false">
+        </activity>
+    </application>
+
+</manifest>

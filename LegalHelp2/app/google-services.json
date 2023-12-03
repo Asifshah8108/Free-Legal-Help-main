@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "429838112373",
+    "project_id": "freelegalhelp-bd72e",
+    "storage_bucket": "freelegalhelp-bd72e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429838112373:android:4abc68fda73eb81ebb0a3c",
+        "android_client_info": {
+          "package_name": "com.myapplicationname.legalhelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429838112373-k4bipvm5mjrlk5t0abo5c3jc8dtu1lgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCczAppMGmdxs3Ycxp2NjulXpT8PbMIaKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429838112373-k4bipvm5mjrlk5t0abo5c3jc8dtu1lgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
